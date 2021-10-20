@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Example</h1>
+    
+<!-- class --> 
+    <p class="is-centered">This text should be center aligned</p>
+    <p>This text should remain left-aligned</p>
+    <p class="is-red">This text should be red</p>
+
+<!-- ID -->
+    <div id="game">
+        <img id="player" src="walk-animation.gif" alt="player sprite">
+    </div>
+    
+<!--the id will have piority-->
+    <h1 id="red" class="green">Hello World</h1>
+
+<!--Descendant Selector-->
+    <p>This is a quote about CSS</p>
+    <div class="quote">
+        <p>"CSS is like chess. You learn the basics in a day and spend a lifetime mastering it."</p>
+    <copy/div>
+    <p>Chris Coyier (css-tricks.com)
+
+
+<!--Direct Descendant Selector,In the above example, 
+        the brand image will be given a height of 50px and the cart icon won't be affected.-->
+    <div class="header">
+        <img src="brand-img.png" alt="brand image"class="support tag close from-rainbow">>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" class="cart">
+            <img src="cart.png" alt="cart-icon">
+            <span>Cart (2)</span>
+        </a>
+    </div>
+
+
+<!--Attribute Selector-->
+    <form action="/process" method="post">
+        <input type="text" name="username" value="Rebecca">
+        <input type="submit" value="Enter Username">
+    </form>
+
+
+<!--color-->
+<h1>Coding Dojo</h1>
+
+
+<!-- Text font -->
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum eaque magnam nostrum?</p>
+    
+<!-- box model -->
+<div id="box-1">
+</div>
+<div id="box-2">
+</div>
+<div id="box-3">
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+/* class selector*/
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
+
+/* ID selector */
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+
+/* wildcard */
+ * {
+    outline: 1px solid red;
+}
+
+
+/* wild * < tag elements < class < id */
+h1 {
+    color: rebeccapurple;
+}
+.green {
+    color: mediumseagreen;
+}
+#red {
+    color: tomato;
+}
+
+/*Descendant Selector */
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
+
+/*Direct Descendant Selector, In the above example, 
+the brand image will be given a height of 50px and the cart icon won't be affected.*/
+.header > img {
+    height: 500px;
+}
+
+/* Attribute Selector */
+inputcopy {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurpl
+}
+
+
+/* color */
+h1 {
+    color: cyan;
+    background-color: grey;
+  }
+
+
+/* Text font */
+p {
+text-align: left;
+text-decoration:dashed;
+font-weight:100;
+font-style:italic;
+font-family:'Courier New', Courier, monospace;
+} 
+
+
+/* size */
+  a {
+    width: 25px;
+  }
+  div {
+    width: 100%;
+    height: 200px;
+  }
+  img {
+    width: 250px;
+  }
+
+  h3 {
+    font-size: 10pt;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 1.2em;
+  }
+  span {
+    font-size: 80%;
+  }
+
+
+  div {
+    overflow: scroll;
+  }
+
+  p {
+    background: #ffffff url("cherries.png") no-repeat fixed center;
+  }
+
+  p {
+    background-color: blue;
+  }
+
+  div {
+    background-image: url("cherries.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  button {
+    border: 2px dotted green;
+  }
+  div {
+    border: 1px solid #000000;
+  }
+  p {
+    border-right: 1px groove rgb(100,100,100);
+    border-left: 1px groove rgb(200,200,200);
+  }
+
+  button {
+    border-radius: 5px;
+  }
+
+
+  /* box model- board*/
+  div{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  div{
+    padding: 25px 50px 75px 100px;
+  }
+ 
+  #box-1, #box-2, #box-3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+  }
+  #box-1{
+    margin: 20px;
+  }
+  #box-2{
+    margin: 30px;
+  }
+  #box-3{
+    margin: 40px;
+  }
+  
+
